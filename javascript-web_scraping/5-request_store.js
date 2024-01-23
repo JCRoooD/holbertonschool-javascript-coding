@@ -1,8 +1,8 @@
 #!/usr/bin/node
 /* Script that writes a string to a file. */
-request = require('request');
-fs = require('fs');
-url = process.argv[2];
+const request = require('request');
+const fs = require('fs');
+const url = process.argv[2];
 
 request(url, (err, response, body) => {
   if (err) {
