@@ -15,7 +15,7 @@ request(url, (err, response, body) => {
 
   films.forEach((film) => {
     film.characters.forEach(character => {
-      if (character.includes('18')) {
+      if (character.endswith('/18/')) {
         count++;
       }
     });
