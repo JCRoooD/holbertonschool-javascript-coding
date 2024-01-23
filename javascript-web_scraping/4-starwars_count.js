@@ -13,7 +13,7 @@ request(url, (err, response, body) => {
   let count = 0;
   const films = JSON.parse(body).results;
 
-  films.forEach((film) => {
+  films.forEach(film => {
     film.characters.forEach(character => {
       if (character.endswith('/18/')) {
         count++;
