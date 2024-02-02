@@ -4,6 +4,5 @@ package.json
 babel.config.js
 .eslintrc.js
 nodesource_setup.sh
-utils.js
 *main*.js
 *main.py
